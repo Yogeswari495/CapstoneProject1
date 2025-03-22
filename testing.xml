@@ -7,6 +7,7 @@
   <class name="Testcases.RegisterTestcase"/>
       <class name="Testcases.LoginTestcase"/>
        <class name="Testcases.cartTestcase"/>
+       <class name="MyRunner.LoginrunnerTestNg"/>
       
       
     </classes>

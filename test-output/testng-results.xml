@@ -1,68 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-22T11:34:04 IST" name="Default suite" finished-at="2025-03-22T11:34:04 IST" duration-ms="113">
+  <suite started-at="2025-03-22T13:44:31 IST" name="Suite" finished-at="2025-03-22T13:45:22 IST" duration-ms="50250">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@55b699ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-22T11:34:04 IST" name="Default test" finished-at="2025-03-22T11:34:04 IST" duration-ms="113">
+    <test started-at="2025-03-22T13:44:31 IST" name="Test" finished-at="2025-03-22T13:45:22 IST" duration-ms="50250">
       <class name="MyRunner.LoginrunnerTestNg">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.LoginrunnerTestNg@55b699ef]" started-at="2025-03-22T11:34:04 IST" name="setUpClass" finished-at="2025-03-22T11:34:04 IST" duration-ms="75" status="FAIL">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:12 IST" name="setUpClass" finished-at="2025-03-22T13:45:13 IST" duration-ms="1277" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@14555e0a]]>
+                <![CDATA[org.testng.TestRunner@548e43b1]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalAccessError">
-            <message>
-              <![CDATA[class io.cucumber.testng.TestNGCucumberRunner tried to access method 'io.cucumber.core.eventbus.UuidGenerator io.cucumber.core.runtime.UuidGeneratorServiceLoader.loadUuidGenerator()' (io.cucumber.testng.TestNGCucumberRunner and io.cucumber.core.runtime.UuidGeneratorServiceLoader are in unnamed module of loader 'app')]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalAccessError: class io.cucumber.testng.TestNGCucumberRunner tried to access method 'io.cucumber.core.eventbus.UuidGenerator io.cucumber.core.runtime.UuidGeneratorServiceLoader.loadUuidGenerator()' (io.cucumber.testng.TestNGCucumberRunner and io.cucumber.core.runtime.UuidGeneratorServiceLoader are in unnamed module of loader 'app')
-at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:105)
-at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalAccessError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.LoginrunnerTestNg@55b699ef]" started-at="2025-03-22T11:34:04 IST" name="tearDownClass" finished-at="2025-03-22T11:34:04 IST" duration-ms="0" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-22T13:45:22 IST" duration-ms="8635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register a new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:22 IST" name="tearDownClass" finished-at="2025-03-22T13:45:22 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- MyRunner.LoginrunnerTestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Testcases.cartTestcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:32 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:57 IST" name="setup" finished-at="2025-03-22T13:44:58 IST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCases3()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:58 IST" name="TestCases3" finished-at="2025-03-22T13:45:11 IST" duration-ms="13156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCases3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:45:11 IST" name="closeBrowser" finished-at="2025-03-22T13:45:12 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.cartTestcase -->
+      <class name="Testcases.LoginTestcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:31 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:44 IST" name="setup" finished-at="2025-03-22T13:44:45 IST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:45 IST" name="loginTest" finished-at="2025-03-22T13:44:56 IST" duration-ms="10920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:56 IST" name="closeBrowser" finished-at="2025-03-22T13:44:57 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.LoginTestcase -->
+      <class name="Testcases.RegisterTestcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:32 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:32 IST" name="setup" finished-at="2025-03-22T13:44:34 IST" duration-ms="2706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCases1()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:34 IST" name="TestCases1" finished-at="2025-03-22T13:44:43 IST" duration-ms="8194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCases1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:43 IST" name="closeBrowser" finished-at="2025-03-22T13:44:44 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.RegisterTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
