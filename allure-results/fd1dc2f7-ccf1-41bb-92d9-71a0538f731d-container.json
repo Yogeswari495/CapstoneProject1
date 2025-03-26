@@ -1,0 +1,1 @@
+{"uuid":"fd1dc2f7-ccf1-41bb-92d9-71a0538f731d","name":"Testcases.Coupons","children":["6e7d5c91-0d0e-4d1c-a3fd-cf7a245c4108"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742904362091,"stop":1742904363870}],"afters":[],"start":1742904314435,"stop":1742904470030}

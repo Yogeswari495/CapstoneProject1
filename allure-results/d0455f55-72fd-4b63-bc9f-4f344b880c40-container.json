@@ -1,0 +1,1 @@
+{"uuid":"d0455f55-72fd-4b63-bc9f-4f344b880c40","name":"Testcases.RemoveCart_testcase","children":["8474a61f-6f87-4268-a88a-f52a9b87e1fc"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742904385610,"stop":1742904387036}],"afters":[],"start":1742904314436,"stop":1742904470041}

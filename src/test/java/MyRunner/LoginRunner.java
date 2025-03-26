@@ -13,7 +13,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(features = ".\\src\\test\\java\\feature\\Login.feature",
-glue = { "stepDef"},
+glue = { "stepDef","Hooks"},
 	plugin = { "pretty","html:target/cucumber-reports//cucumber.html" },
 	tags = "@signup",
 	monochrome = true)

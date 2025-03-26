@@ -4,14 +4,22 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Testcases.LoginTestcase">
+      <class name="Testcases.RemoveCart_testcase">
         <methods>
-          <include name="loginTest"/>
-          <include name="closeBrowser"/>
+          <include name="Remove_Cart"/>
           <include name="readData"/>
+          <include name="closeBrowser"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Testcases.LoginTestcase -->
+      </class> <!-- Testcases.RemoveCart_testcase -->
+      <class name="Testcases.Coupons">
+        <methods>
+          <include name="readData"/>
+          <include name="closeBrowser"/>
+          <include name="coupons"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.Coupons -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

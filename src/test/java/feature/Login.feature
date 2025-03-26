@@ -6,11 +6,12 @@ Feature: User Login
     When the user clicks on login
     When enters a unique email "<email>" and password "<Password>"
     And clicks the login button
+    And error message is generated
    
 
   Examples:
     | url                                 | email                    | Password      |
-    | https://demowebshop.tricentis.com/  | yogitha22@gmail.com   | fW3D@QH3rtYbts  |
+    | https://demowebshop.tricentis.com/  | Yogeswari123@gmail.com   | Yogeswari22 |
 
 
     

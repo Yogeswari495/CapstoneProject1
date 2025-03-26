@@ -34,7 +34,7 @@ public class RegisterTestcase extends Base_class {
 	@Test
 
 	public void TestCases1() throws InterruptedException, IOException {
-	
+
 		driver.get(url);
 		rp = new RegisterPage(driver);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -50,9 +50,9 @@ public class RegisterTestcase extends Base_class {
 		// Wait for the First Name field to be visible and enter data
 		wait.until(ExpectedConditions.visibilityOf(rp.FirstName())).sendKeys("Yogeswari");
 		wait.until(ExpectedConditions.visibilityOf(rp.LastName())).sendKeys("Yalamilli");
-        wait.until(ExpectedConditions.visibilityOf(rp.email())).sendKeys("Yogeswari@gmail.com");
-        wait.until(ExpectedConditions.visibilityOf(rp.Password())).sendKeys("Yogeswari1234");
-        wait.until(ExpectedConditions.visibilityOf(rp.cPassword())).sendKeys("Yogeswari1234");
+		wait.until(ExpectedConditions.visibilityOf(rp.email())).sendKeys("Yogeswari@gmail.com");
+		wait.until(ExpectedConditions.visibilityOf(rp.Password())).sendKeys("Yogeswari1234");
+		wait.until(ExpectedConditions.visibilityOf(rp.cPassword())).sendKeys("Yogeswari1234");
 		// Wait for the Register button to be clickable and click on it
 		wait.until(ExpectedConditions.elementToBeClickable(rp.Registerbutton())).click();
 
@@ -68,8 +68,6 @@ public class RegisterTestcase extends Base_class {
 			ExtentReport.createTest("Register TESTcase").log(Status.FAIL,
 					"Registration test failed due to exception: " + e.getMessage());
 			screenshot(); // Capture screenshot on failure
-		} 
+		}
 	}
 }
-
-

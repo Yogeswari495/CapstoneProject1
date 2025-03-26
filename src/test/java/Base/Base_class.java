@@ -22,14 +22,14 @@ public class Base_class {
 	public static WebDriver driver = null;
 
 	@BeforeClass
-	@Parameters({ "browser" })
-	public void setup(String Browser) {
+	@Parameters({ "browser"} )
+	public void setup( String Browser) {
 
 		if (Browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		} else if (Browser.equalsIgnoreCase("Firefox")) {
+		} else if (Browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -65,5 +65,6 @@ public class Base_class {
 			ExtentReport.getInstance().flush();
 		}
 	}
-
 }
+
+

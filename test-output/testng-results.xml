@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-22T13:44:31 IST" name="Suite" finished-at="2025-03-22T13:45:22 IST" duration-ms="50250">
+  <suite started-at="2025-03-26T10:39:07 IST" name="Suite" finished-at="2025-03-26T10:42:14 IST" duration-ms="187734">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@6f36c2f0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-22T13:44:31 IST" name="Test" finished-at="2025-03-22T13:45:22 IST" duration-ms="50250">
+    <test started-at="2025-03-26T10:39:07 IST" name="Test" finished-at="2025-03-26T10:40:53 IST" duration-ms="106065">
       <class name="MyRunner.LoginrunnerTestNg">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:12 IST" name="setUpClass" finished-at="2025-03-22T13:45:13 IST" duration-ms="1277" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:MyRunner.LoginrunnerTestNg@6f36c2f0]" started-at="2025-03-26T10:40:43 IST" name="setUpClass" finished-at="2025-03-26T10:40:43 IST" duration-ms="582" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@548e43b1]]>
+                <![CDATA[org.testng.TestRunner@641bc9a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-22T13:45:22 IST" duration-ms="8635" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.LoginrunnerTestNg@6f36c2f0]" started-at="2025-03-26T10:40:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T10:40:53 IST" duration-ms="9204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +37,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.LoginrunnerTestNg@1aafa419]" started-at="2025-03-22T13:45:22 IST" name="tearDownClass" finished-at="2025-03-22T13:45:22 IST" duration-ms="39" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.LoginrunnerTestNg@6f36c2f0]" started-at="2025-03-26T10:40:53 IST" name="tearDownClass" finished-at="2025-03-26T10:40:53 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- MyRunner.LoginrunnerTestNg -->
-      <class name="Testcases.cartTestcase">
-        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:32 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:57 IST" name="setup" finished-at="2025-03-22T13:44:58 IST" duration-ms="1096" status="PASS">
+      <class name="Testcases.RegistrationInvalid">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.RegistrationInvalid@1c9b0314]" started-at="2025-03-26T10:39:18 IST" name="setup" finished-at="2025-03-26T10:39:20 IST" duration-ms="1234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,21 +54,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCases3()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:44:58 IST" name="TestCases3" finished-at="2025-03-22T13:45:11 IST" duration-ms="13156" status="PASS">
+        <test-method signature="RegisterInvalid()[pri:0, instance:Testcases.RegistrationInvalid@1c9b0314]" started-at="2025-03-26T10:39:20 IST" name="RegisterInvalid" finished-at="2025-03-26T10:39:26 IST" duration-ms="6308" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCases3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.cartTestcase@7b2bbc3]" started-at="2025-03-22T13:45:11 IST" name="closeBrowser" finished-at="2025-03-22T13:45:12 IST" duration-ms="871" status="PASS">
+        </test-method> <!-- RegisterInvalid -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.RegistrationInvalid@1c9b0314]" started-at="2025-03-26T10:39:26 IST" name="closeBrowser" finished-at="2025-03-26T10:39:27 IST" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Testcases.cartTestcase -->
+      </class> <!-- Testcases.RegistrationInvalid -->
       <class name="Testcases.LoginTestcase">
-        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:31 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.LoginTestcase@45385f75]" started-at="2025-03-26T10:39:07 IST" name="readData" finished-at="2025-03-26T10:39:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readData -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:44 IST" name="setup" finished-at="2025-03-22T13:44:45 IST" duration-ms="1137" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.LoginTestcase@45385f75]" started-at="2025-03-26T10:39:27 IST" name="setup" finished-at="2025-03-26T10:39:28 IST" duration-ms="1137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,21 +79,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:45 IST" name="loginTest" finished-at="2025-03-22T13:44:56 IST" duration-ms="10920" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:Testcases.LoginTestcase@45385f75]" started-at="2025-03-26T10:39:28 IST" name="loginTest" finished-at="2025-03-26T10:39:40 IST" duration-ms="11752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.LoginTestcase@48f2bd5b]" started-at="2025-03-22T13:44:56 IST" name="closeBrowser" finished-at="2025-03-22T13:44:57 IST" duration-ms="507" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.LoginTestcase@45385f75]" started-at="2025-03-26T10:39:40 IST" name="closeBrowser" finished-at="2025-03-26T10:39:40 IST" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Testcases.LoginTestcase -->
       <class name="Testcases.RegisterTestcase">
-        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:32 IST" name="readData" finished-at="2025-03-22T13:44:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.RegisterTestcase@465232e9]" started-at="2025-03-26T10:39:07 IST" name="readData" finished-at="2025-03-26T10:39:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readData -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:32 IST" name="setup" finished-at="2025-03-22T13:44:34 IST" duration-ms="2706" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.RegisterTestcase@465232e9]" started-at="2025-03-26T10:39:07 IST" name="setup" finished-at="2025-03-26T10:39:10 IST" duration-ms="3101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,15 +104,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCases1()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:34 IST" name="TestCases1" finished-at="2025-03-22T13:44:43 IST" duration-ms="8194" status="PASS">
+        <test-method signature="TestCases1()[pri:0, instance:Testcases.RegisterTestcase@465232e9]" started-at="2025-03-26T10:39:10 IST" name="TestCases1" finished-at="2025-03-26T10:39:17 IST" duration-ms="7040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCases1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.RegisterTestcase@6f1de4c7]" started-at="2025-03-22T13:44:43 IST" name="closeBrowser" finished-at="2025-03-22T13:44:44 IST" duration-ms="1391" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.RegisterTestcase@465232e9]" started-at="2025-03-26T10:39:17 IST" name="closeBrowser" finished-at="2025-03-26T10:39:18 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Testcases.RegisterTestcase -->
+      <class name="Testcases.RemoveCart_testcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.RemoveCart_testcase@69ee81fc]" started-at="2025-03-26T10:39:07 IST" name="readData" finished-at="2025-03-26T10:39:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.RemoveCart_testcase@69ee81fc]" started-at="2025-03-26T10:40:13 IST" name="setup" finished-at="2025-03-26T10:40:14 IST" duration-ms="1048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Remove_Cart()[pri:0, instance:Testcases.RemoveCart_testcase@69ee81fc]" started-at="2025-03-26T10:40:14 IST" name="Remove_Cart" finished-at="2025-03-26T10:40:42 IST" duration-ms="27755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_Cart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.RemoveCart_testcase@69ee81fc]" started-at="2025-03-26T10:40:42 IST" name="closeBrowser" finished-at="2025-03-26T10:40:43 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.RemoveCart_testcase -->
+      <class name="Testcases.CartTestcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.CartTestcase@49c90a9c]" started-at="2025-03-26T10:39:07 IST" name="readData" finished-at="2025-03-26T10:39:07 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.CartTestcase@49c90a9c]" started-at="2025-03-26T10:39:40 IST" name="setup" finished-at="2025-03-26T10:39:41 IST" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCases3()[pri:0, instance:Testcases.CartTestcase@49c90a9c]" started-at="2025-03-26T10:39:41 IST" name="TestCases3" finished-at="2025-03-26T10:39:53 IST" duration-ms="12015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCases3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.CartTestcase@49c90a9c]" started-at="2025-03-26T10:39:53 IST" name="closeBrowser" finished-at="2025-03-26T10:39:54 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.CartTestcase -->
+      <class name="Testcases.Coupons">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.Coupons@2d29b4ee]" started-at="2025-03-26T10:39:07 IST" name="readData" finished-at="2025-03-26T10:39:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Coupons@2d29b4ee]" started-at="2025-03-26T10:39:54 IST" name="setup" finished-at="2025-03-26T10:39:55 IST" duration-ms="1200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="coupons()[pri:0, instance:Testcases.Coupons@2d29b4ee]" started-at="2025-03-26T10:39:55 IST" name="coupons" finished-at="2025-03-26T10:40:12 IST" duration-ms="17113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coupons -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.Coupons@2d29b4ee]" started-at="2025-03-26T10:40:12 IST" name="closeBrowser" finished-at="2025-03-26T10:40:13 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.Coupons -->
     </test> <!-- Test -->
+    <test started-at="2025-03-26T10:40:53 IST" name="Checkout" finished-at="2025-03-26T10:42:14 IST" duration-ms="81583">
+      <class name="Testcases.CheckoutTestcase">
+        <test-method is-config="true" signature="readData()[pri:0, instance:Testcases.CheckoutTestcase@22f59fa]" started-at="2025-03-26T10:40:53 IST" name="readData" finished-at="2025-03-26T10:40:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.CheckoutTestcase@22f59fa]" started-at="2025-03-26T10:40:53 IST" name="setup" finished-at="2025-03-26T10:40:59 IST" duration-ms="6729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkOutTest()[pri:0, instance:Testcases.CheckoutTestcase@22f59fa]" started-at="2025-03-26T10:40:59 IST" name="checkOutTest" finished-at="2025-03-26T10:42:13 IST" duration-ms="73497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.CheckoutTestcase@22f59fa]" started-at="2025-03-26T10:42:13 IST" name="closeBrowser" finished-at="2025-03-26T10:42:14 IST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.CheckoutTestcase -->
+    </test> <!-- Checkout -->
   </suite> <!-- Suite -->
 </testng-results>

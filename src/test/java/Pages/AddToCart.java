@@ -14,13 +14,13 @@ public class AddToCart {
 	By Positions =By.id("products-orderby");
 	By Grid =By.id("products-viewmode");
 	By view =By.id("products-pagesize");
-	By Giftcard =By.xpath("//a[.='$5 Virtual Gift Card']");
-	By name=By.id("giftcard_1_RecipientName");
-	By email=By.className("recipient-email");
-	By sendername=By.className("sender-name");
-	By  senderemail=By.id("giftcard_1_SenderEmail");
+	By Giftcard =By.xpath("(//input[@class='button-2 product-box-add-to-cart-button'])[3]");
+	By name=By.name("giftcard_2.RecipientName");
+	By email=By.name("giftcard_2.RecipientEmail");
+	By sendername=By.name("giftcard_2.SenderName");
+	By  senderemail=By.id("giftcard_2_SenderEmail");
 	By Message=By.className("message");
-	By AddTocart=By.xpath("//input[@id='add-to-cart-button-1']");
+	By AddTocart=By.id("add-to-cart-button-2");
  
 //action methods
 	public WebElement link() {

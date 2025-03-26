@@ -1,21 +1,20 @@
 package stepDef;
 
-import java.time.Duration;
+import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import Base.Base_class;
 import Base.ExtentReport;
-import Pages.LoginPageF;
-import Pages.LoginPageValid;
+import Pages.LoginPageInvalid;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Login extends Base_class {
 	 
-	    private LoginPageValid loginPage;
+	    private LoginPageInvalid loginPage;
 
 	@Given("the user is on LoginPage {string}")
 	public void the_user_is_on_login_page(String url) {
@@ -23,7 +22,7 @@ public class Login extends Base_class {
 		setup("chrome");
 		// Initialize Page Object
 		driver.get(url);
-		loginPage = new LoginPageValid(driver);
+		loginPage = new LoginPageInvalid(driver);
 		ExtentReport.getInstance();
 	}
 
@@ -43,8 +42,17 @@ public class Login extends Base_class {
 	@And("clicks the login button")
 	public void clicks_the_login_button() {
 		loginPage.clickOnLoginBtn();
+		
 		ExtentReport.createTest("Login test sucessful").pass("Login testcase successfully completed");
 
 	}
+	@And("error message is generated")
+	public void error_message_is_generated() throws IOException {
 
-}
+	String error =  loginPage.geterrormsg().getText();
+	System.out.println(error);
+		screenshot();
+	}
+
+	}
+

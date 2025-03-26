@@ -37,11 +37,11 @@ public class LoginPageF {
 	}
 
 	public void enterEmailId() {
-		email.sendKeys("Yogeswari123@gmail.com");
+		email.sendKeys("yogitha22@gmail.com");
 	}
 
 	public void enterPwd() {
-		password_loc.sendKeys("Yogeswari123");
+		password_loc.sendKeys("fW3D@QH3rtYbts");
 	}
 
 	public void clickOnRemCheckBox() {
